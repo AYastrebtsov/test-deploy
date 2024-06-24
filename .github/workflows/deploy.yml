@@ -29,5 +29,4 @@ jobs:
     #- run: cp .env.example .env
     - run: npm i
     - run: npm run build --if-present
-    - run: cp -r /unequaled-pear/actions-runner/test-deploy/test-deploy/build/client/. /testDeploy #copies contents of the build/dist folder to the '/var/www/web-app-name' folder where it will be served up
-
+    - run: cp -r /root/actions-runner/_work/test-deploy/test-deploy/build/client. /root/testDeploy #copies contents of the build/dist folder to the '/var/www/web-app-name' folder where it will be served up

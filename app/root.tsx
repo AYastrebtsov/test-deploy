@@ -38,7 +38,7 @@ export function ErrorBoundary() {
   return (
     <html lang="en">
       <head>
-        <title>Oh no no no!</title>
+        <title>Oh no!</title>
         <Meta />
         <Links />
       </head>
